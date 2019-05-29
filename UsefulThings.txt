@@ -1,0 +1,28 @@
+Useful Ubuntu things
+
+-Windows Files are in "/mnt/c/Users/ragoh"
+
+-Hide current path in shell: "export PS1='\u@\h: '"
+
+-Create Python Environment
+	"python3 -m venv env"
+	"source env/bin/activate"
+
+-Convert DOS/Mac line ending to UNIX: "dos2unix [filename]"
+	unix2dos to convert back
+
+
+-Basic C Commands
+	Compile code into executable: gcc -o hello hello.c
+	Execute: ./hello
+
+
+-Write into a text file from terminal:
+
+	cat > outfile.txt <<EOF
+	>some text
+	>to save
+	>EOF
+
+-Unzip a tarball: "tar -xzvf [filename.tar]"
+	-several unique flags instead of xzvf
